@@ -16,7 +16,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://sw-1-front-oc1o.vercel.app",
     methods: ["GET", "POST"]
   }
 });
